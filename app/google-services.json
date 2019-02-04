@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "108308692853",
+    "firebase_url": "https://chatme-c6557.firebaseio.com",
+    "project_id": "chatme-c6557",
+    "storage_bucket": "chatme-c6557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108308692853:android:45e71cec9c47e9f1",
+        "android_client_info": {
+          "package_name": "com.bigupyuhself.chatme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108308692853-ejpu5hrram8sfi4hr4vk4tknm395eqm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAktZE4DA1DicgzYU932CtEk5cTWqUkcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

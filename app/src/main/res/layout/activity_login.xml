@@ -6,30 +6,41 @@
                                              android:background="@android:color/holo_green_light">
 
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:id="@+id/usrnameETLogin"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="84dp"
-            app:layout_constraintTop_toTopOf="parent" android:hint="Username"
-            app:layout_constraintHorizontal_bias="0.503"/>
+            android:id="@+id/emailETLogin"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp" android:layout_marginTop="84dp"
+            app:layout_constraintTop_toTopOf="parent" android:hint="Email"
+            app:layout_constraintHorizontal_bias="0.503" android:background="@android:color/white"/>
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/passwordETLogin"
-            app:layout_constraintStart_toStartOf="@+id/usrnameETLogin"
-            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/usrnameETLogin"
-            android:hint="Password"/>
+            app:layout_constraintStart_toStartOf="@+id/emailETLogin"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/emailETLogin"
+            android:hint="Password" android:background="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/emailETLogin"/>
     <Button
-            android:text="Button"
-            android:layout_width="164dp"
+            android:text="Login"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button" android:layout_marginTop="8dp"
+            android:id="@+id/loginBUTLogin" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/passwordETLogin"
             app:layout_constraintStart_toStartOf="@+id/passwordETLogin"
             app:layout_constraintEnd_toEndOf="@+id/passwordETLogin" app:layout_constraintHorizontal_bias="0.49"/>
+    <TextView
+            android:text="Back to registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bakcTVLogin" app:layout_constraintStart_toStartOf="@+id/loginBUTLogin"
+            app:layout_constraintEnd_toEndOf="@+id/loginBUTLogin" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/loginBUTLogin" android:textSize="16dp"
+            android:textColor="@android:color/white"/>
 </android.support.constraint.ConstraintLayout>
